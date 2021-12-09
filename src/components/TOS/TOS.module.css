@@ -1,0 +1,10 @@
+.tosContainer {
+  margin: 5% auto 2% auto;
+  width: 80%;
+  flex-grow: 1;
+  color: var(--silver);
+}
+
+.padded {
+  padding-left: 1%;
+}

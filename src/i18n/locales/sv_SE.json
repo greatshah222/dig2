@@ -1,0 +1,173 @@
+{
+    "banner" : {
+        "action" : "Play"
+    },
+    "categoryTitle" : {
+        "viewAllButton" : "View All"
+    },
+    "categoryDropdown" : {
+        "categories" : "Categories"
+    },
+    "changePassword" : {
+        "askForNewPassword" : "Enter your password here",
+        "askForConfirmPassword" : "Enter your password here again",
+        "askForOldPassword" : "Enter your old password here",
+        "changedSuccessfully" : "Password changed successfully",
+        "somethingWrongTryAgain" : "Something went wrong, please try again",
+        "title" : "Change password",
+        "errorPasswordNotLongEnough" : "Password has to be at least {{count}} characters)",
+        "errorPasswordsDontMatch" : "Passwords don't match",
+        "save" : "Save"
+    },
+    "contactUs": {
+        "address" : "Address",
+        "contactUs" : "Contact Us",
+        "phone" : "Phone",
+        "sendEmail" : "Send Email"
+    },
+    "detailsBanner" : {
+        "action" : "Watch"
+    },
+    "detailsInfo" : {
+        "director" : "Director",
+        "actors" : "Actors",
+        "releaseYear" : "Release year",
+        "duration" : "Duration",
+        "languages" : "Languages",
+        "subtitles" : "Subtitles"
+    },
+    "faq" : {
+        "title" : "Frequently asked questions"
+    },
+    "footer": {
+        "contactUs" : "Contact Us",
+        "tos" : "Terms & conditions",
+        "menu" : "Menu",
+        "socialMedia" : "Social Media",
+        "copyRight" : "Copyright © 2021 - Digital Tree Media. All rights reserved",
+        "hoverLogoBackToHome" : "Back to Home"
+    },
+    "itemTitle" : {
+        "available" : "Available",
+        "views" : "Views"
+    },
+    "languageSelect" : {
+        "finnish" : "Finnish",
+        "english" : "English",
+        "swedish" : "Swedish",
+        "greekish" : "Greekish"
+    },
+    "login" : {
+        "loginButton" : "Login",
+        "logOutButton" : "Logout",
+        "profileButton" : "Profile"
+    },
+    "loginForm" : {
+        "title" : "Login",
+        "loginForAccess" : "Please Login to have Access",
+        "loginButton" : "Login",
+        "askForEmail" : "Enter your email here",
+        "askForPassword": "Enter your password here",
+        "newUserLink" : "New user in site?",
+        "signUpLink" : "SignUp now",
+        "errorIncorrectEmailAddress" :"Incorrect email address, please try again",
+        "wrongPassword" : "Please check your password and try again"
+    },
+    "profileMenu": {
+        "loginFirst" : "To view this page, you need to login first",
+        "userDetails" : "User Details",
+        "subscriptions" : "Subscriptions",
+        "changePassword" : "Change Password"
+    },
+    "navBar" : {
+        "backToHome" : "Back to Home",
+        "contactUs" : "Contact Us",
+        "onlineTV" : "Online TV",
+        "tvShows" : "TV Shows",
+        "search" : "Search"
+    },
+    "navBarCategoryDropDown" : {
+        "categories" : "Categories"
+    },
+    "search" : {
+        "searchButton" : "Search",
+        "newFirst" : "Newest First",
+        "alphabetically" : "A-Z",
+        "showAll" : "Show All",
+        "showOnlyMovies" : "Only Movies",
+        "showOnlySeries" : "Only Series",
+        "searchByName" : "Search by name",
+        "searchResults" : "results",
+        "searchNoMatch" : "Unfortunately we did not find any videos to match your search. Did you check your search term?"
+    },
+    "seasonsAndEpisodes" : {
+        "title" : "Season"
+    },
+    "seriesSlider" : {
+        "title" : "SHOWS"
+    },
+    "signUpBar" : {
+        "inputPlaceholderEmail" : "Email",
+        "signupButton" : "Sign Up",
+        "subscribe" : "Subscribe",
+        "welcomeText1" : "Try 1 month premium for free",
+        "welcomeText2" : "60,000 movies & shows, 400 tv channels, up to 5 accounts",
+        "errorIncorrectEmailAddress" : "Incorrect email address, please try again"
+    },
+    "signUpForm" : {
+        "agreeOnTerms" : "By signing up you are agreeing to our terms & conditions",
+        "title" : "Sign Up",
+        "address" : "Address",
+        "city" : "City",
+        "country" : "Country",
+        "dateOfBirth" : "Date of Birth",
+        "firstName" : "First Name",
+        "lastName" : "Last Name",
+        "phone" : "Phone",
+        "askForAddress" : "Please enter the address",
+        "askForCity" : "Please enter the city",
+        "askForCountry" : "Please select the country",
+        "askForConfirmPassword" : "Enter your password here again",
+        "askForDateOfBirth" : "Please enter the date of birth (yyyy-mm-dd)",
+        "askForFirstName" : "Please enter your first name here",
+        "askForLastName" : "Please enter your last name here",
+        "askForPassword" : "Enter your password here",
+        "askForPhone" : "Please enter the phone number",
+        "errorPasswordNotLongEnough" : "Please Enter (at least {{count}} characters)",
+        "errorPasswordsDontMatch" : "Passwords don't match",
+        "inputPlaceholderEmail" : "Enter your email address here...",
+        "incorrectEmailAddress" : "Incorrect email address, please try again",
+        "submitButton" : "Next"
+        
+    },
+    "similiarSlider" : {
+        "title" : "Similiar"
+    },
+    "subscriptions": {
+        "title" : "Your active subscriptions"
+    },
+    "userDetails" : {
+        "somethingWrongTryAgain" : "Something went wrong, please try again",
+        "profileUpdated" : "Profile updated",
+        "userDetails" : "User Details",
+        "inputPlaceholderFirstName" : "First Name",
+        "inputPlaceholderLastName" : "Last name",
+        "inputPlaceholderEmail" : "Email",
+        "inputPlaceholderPhone" : "Phone",
+        "inputPlaceholderAddress" : "Address",
+        "inputPlaceholderCity" : "City",
+        "inputPlaceholderCountry" : "Country",
+        "askForFirstName" : "Please enter your first name here",
+        "askForLastName" : "Please enter your last name here",
+        "askforPhone" : "Please enter the phone number",
+        "askForAddress" : "Please enter the address",
+        "askForCity" : "Please enter the city",
+        "askForCountry" : "Please select the country",
+        "incorrectEmailAddress" : "Incorrect email address, please try again",
+        "saveChanges" : "Save"
+    },
+    "videoPlayer" : {
+        "showPlayer" : "Show Player",
+        "close" : "Close"
+    }
+}

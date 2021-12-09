@@ -1,0 +1,837 @@
+{
+    "API_Server_Number" : 1,
+    "googleAnalytics": "UA-82995370-2",
+    "organization": {
+        "name" : "Digital",
+        "organizationId": "128130034",
+        "key": "QJGTnxVc0Z",
+        "companyId": 10154,
+        "groupId": "128130035",
+        "channelServiceId": "128132818",
+        "googleAnalytics": "UA-82995370-2"
+
+        
+        
+    },
+    "languages":{
+        "ENG":{
+            "name":"ENG",
+            "value":"en_US"
+        },
+        "GREEK":{
+            "name":"GREEK",
+            "value":"el_GR"
+        },
+
+        "channelServiceId": "128132818"
+        
+    },
+    "components": {
+        "frontPageBanner_01": {
+            "id": "frontPageBanner_01",
+            "groupItemId": "134182879",
+            "showDuration" : false,
+            "showTitle" : false,
+            "showActionButton" : false, 
+            "slickSettings": {
+                "dots": false,
+                "infiniteLoop": true,
+                "lazyLoad": false,
+                "interval": 3000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoPlay": false,
+                "showThumbs": false,
+                "showStatus": false
+            },
+            "routes": {
+                "videoRoute": "playVideo",
+                "serieRoute": "playVideoSerie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            },
+            "bannerComponent": "RenderBanner2"
+        },
+        "homepagePromo_01": {
+            "id": "homepagePromo_01",
+            "mode": "mode_1",
+            "maintainImageAspectRatio": "true",
+            "groupItemId": "134189921",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            },
+            "routes": {
+                "videoRoute": "playVideo",
+                "serieRoute": "playVideoSerie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            }
+        },
+        "frontPageCategories_01": {
+            "id": "frontPageCategories_01",
+            "mode": "mode_1",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "groupItemId": "129468325,129468329,129252566",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie",
+                "categories": "tvod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "frontPageCategories_02": {
+            "id": "frontPageCategories_02",
+            "mode": "mode_2",
+            "maintainImageAspectRatio": "true",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "groupItemId": "129468325,129468329,129252566",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "lazyLoad": false,
+                "infinite": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "svodCategories_01": {
+            "id": "svodCategories_01",
+            "mode": "mode_3",
+            "categoryTitleComponent": "CategoryTitle",
+            "itemImageComponent": "ItemImage",
+            "itemTitleComponent": "ItemTitle",
+            "assetProperty": "",
+            "groupItemId": "123703428",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1980,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "episodesWithSerieTitles_01": {
+            "id": "episodesWithSerieTitles_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "groupItemId": "134431572,133943922,133944138",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "playVideo",
+                "serieRoute": "playVideoSerie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        
+        "episodesWithSerieTitles_02": {
+            "id": "episodesWithSerieTitles_02",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "playVideo",
+                "serieRoute": "playVideoSerie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "svodSimiliar_01": {
+            "id": "svodSimiliar_01",
+            "assetProperty": "",
+            "categoryTitleComponent": "CategoryTitle",
+            "itemImageComponent": "ItemImage",
+            "itemTitleComponent": "ItemTitle",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodChosenCategoryGrid_01": {
+            "id": "svodChosenCategoryGrid_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "radiantMediaPlayer_01": {
+            "backRoute": "/"
+        },
+        "ListAllCategories_01": {
+            "id": "ListAllCategories_01",
+            "groupItemId": "132470525,132470532,132470530,132470538",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "sautoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 3
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 2
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "homepageListAllSeries_01": {
+            "id": "homepageListAllSeries_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "sautoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 3
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 2
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            },
+            "routes": {
+                "viewAllRoute": "tvShows",
+                "videoRoute": "series/categories",
+                "serieRoute": "series/categories"
+            }
+        },
+        "search_01": {
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "hideToggles" : true,
+            "routes": {
+                "svodSeriesCategoriesRoute": "series/categories",
+                "videoRoute": "playVideo",
+                "serieRoute": "playVideoSerie"
+            }
+        },
+        "profile": {
+            "fields": {
+                "firstName": true,
+                "lastName": true,
+                "address": true,
+                "phone": true,
+                "city": true,
+                "country": true,
+                "email": true,
+                "dateOfBirth": true
+            },
+            "showSubscriptions" : false
+        },
+        "signUp": {
+            "fields": {
+                "firstName": false,
+                "lastName": false,
+                "address": false,
+                "phone": false,
+                "city": false,
+                "country": false,
+                "email": true,
+                "dateOfBirth": false,
+                "passwordConfirm": false
+            },
+            "redirectRoute" : "/"
+        }
+    },
+    "routes": {
+        "svodSerieRoute": "detailsSerie",
+        "tvodSerieRoute": "tvod/detailsSerie",
+        "svodVideoRoute": "detailsVideo",
+        "tvodVideoRoute": "tvod/detailsVideo",
+        "svodCategoriesRoute": "categories",
+        "tvodCategoriesRoute": "tvod/categories",
+        "svodSeriesCategoriesRoute": "series/categories",
+        "onlineTV": "onlineTV",
+        "movies": "movies",
+        "tvShows": "tvShows",
+        "cartoons": "cartoons",
+        "sports": "sports",
+        "categories": "categories",
+        "contactus": "contactus",
+        "profile": "profile",
+        "login": "login",
+        "tvod": "tvod",
+        "svod": "svod",
+        "faq": "faq",
+        "tos": "tos",
+        "search": "search",
+        "playVideo": "playVideo",
+        "playSerie": "playVideoSerie",
+        "signUp": "signUp",
+        "home": "/",
+        "packages": "/packages"
+    },
+    "language": "el_GR"
+}

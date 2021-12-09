@@ -1,0 +1,11 @@
+.faqContainer {
+  margin: 5% auto 2% auto;
+  width: 80%;
+  flex-grow: 1;
+  color: var(--mainBlack);
+  font-size: var(--font20);
+}
+
+.faqTitle {
+  font-size: var(--font20);
+}

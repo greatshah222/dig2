@@ -1,0 +1,111 @@
+.Footer {
+  display: flex;
+  color: var(--white);
+  width: 80%;
+  margin: 0 auto;
+  line-height: 20px;
+  padding: 50px 0px 50px 21px;
+}
+
+.Footer_Description_Heading,
+.Footer_Menu_Heading,
+.Footer_SocialMedia_Heading {
+  height: 52px;
+  letter-spacing: 0.5px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.Footer_Menu_Heading,
+.Footer_SocialMedia_Heading {
+  display: flex;
+  align-items: center;
+}
+.Footer_Menu a,
+.Footer_SocialMedia a {
+  color: var(--silver);
+  text-decoration: none;
+}
+.Footer_Menu a:hover,
+.Footer_SocialMedia a:hover {
+  color: var(--brandHover);
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+.Footer_Menu,
+.Footer_SocialMedia {
+  flex: 1;
+}
+
+.Footer_SocialMedia_Heading_Info,
+.Footer_Menu_info {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  color: var(--silver);
+  /* gap: 10px; */
+  align-items: flex-start;
+  justify-content: center;
+}
+.Footer_SocialMedia_Heading_Info > * + * {
+  margin-top: 10px !important;
+}
+.Footer_Menu_info > * + * {
+  margin-top: 10px !important;
+}
+
+.Footer_Description {
+  color: var(--blueSilver);
+
+  flex: 3;
+}
+.Footer_Description_Heading_Info {
+  padding: 10px 50px 10px 0;
+}
+.Footer_SocialMedia_Links {
+  display: flex;
+  /* gap: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer_SocialMedia_Links > * + * {
+  margin-left: 10px;
+}
+.Footer_SocialMedia_Links_icons {
+  color: var(--blueSilver);
+}
+/* media Queeries */
+@media (max-width: 1200px) {
+  .Footer {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .Footer {
+    flex-direction: column;
+    /* gap: 30px; */
+    width: 95%;
+  }
+  .Footer_Description_Heading_Info {
+    padding: 10px 10px 10px 0;
+  }
+  .Footer_SocialMedia_Heading_Info,
+  .Footer_Menu_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 0px; */
+  }
+  .Footer_SocialMedia_Heading_Info > * + * {
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+  }
+  .Footer_Menu_info > * + * {
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+  }
+}

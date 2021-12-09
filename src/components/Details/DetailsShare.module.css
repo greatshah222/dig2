@@ -1,0 +1,26 @@
+.details_share {
+  display: flex;
+  padding-top: 35px;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details_share a {
+  text-decoration: none;
+  color: var(--brand);
+}
+.details_share a:hover {
+  color: var(--brandHover);
+}
+
+.shareBTN {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 5px;
+  color: var(--brand);
+}

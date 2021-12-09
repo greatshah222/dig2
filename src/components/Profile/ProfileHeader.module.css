@@ -1,0 +1,10 @@
+.ProfileHeader {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+}
+.ProfileHeader h2 {
+  margin-bottom: 5px !important;
+  padding-bottom: 0;
+  margin-right: 10px;
+}

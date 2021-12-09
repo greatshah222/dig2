@@ -1,0 +1,15 @@
+.activeSelected {
+  color: var(--brand) !important;
+}
+
+.FaIcon {
+  margin-right: 5px;
+}
+.navBarSearch {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.navBarSearch > * + * {
+  margin-left: 2px;
+}

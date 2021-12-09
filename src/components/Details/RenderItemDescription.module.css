@@ -1,0 +1,9 @@
+.itemDescription {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  /* padding: 0 15% 0 1%; */
+  color: var(--blueSilver);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,173 @@
+{
+    "banner" : {
+        "action" : "Katso"
+    },
+    "categoryTitle" : {
+        "viewAllButton" : "Kaikki"
+    },
+    "categoryDropdown" : {
+        "categories" : "Kategoriat"
+    },
+    "changePassword" : {
+        "askForNewPassword" : "Uusi salasana",
+        "askForConfirmPassword" : "Uusi salasana uudelleen",
+        "askForOldPassword" : "Vanha salasana",
+        "changedSuccessfully" : "Salasana vaihdettu",
+        "somethingWrongTryAgain" : "Jotain meni vikaan, yritä uudelleen",
+        "title" : "Vaihda salasana",
+        "errorPasswordNotLongEnough" : "Salasanan täytyy olla vähintään {{count}} merkkiä pitkä",
+        "errorPasswordsDontMatch" : "Salasanat eivät täsmää",
+        "save" : "Tallenna"
+    },
+    "contactUs": {
+        "address" : "Lähiosoite",
+        "contactUs" : "Ota yhteyttä",
+        "phone" : "Puhelin",
+        "sendEmail" : "Lähetä sähköpostia"
+    },
+    "detailsBanner" : {
+        "action" : "Katso"
+    },
+    "detailsInfo" : {
+        "director" : "Ohjaaja",
+        "actors" : "Näyttelijät",
+        "releaseYear" : "Julkaisuvuosi",
+        "duration" : "Kesto",
+        "languages" : "Kielet",
+        "subtitles" : "Teksitykset"
+    },
+    "faq" : {
+        "title" : "Usein kysytyt kysymykset"
+    },
+    "footer": {
+        "contactUs" : "Ota yhteyttä",
+        "tos" : "Käyttöehdot",
+        "menu" : "Valikko",
+        "socialMedia" : "Sosiaalinen media",
+        "copyRight" : "Copyright © 2021 - Digital Tree Media. Kaikki oikeudet pidätetään",
+        "hoverLogoBackToHome" : "Takaisin etusivulle"
+    },
+    "itemTitle" : {
+        "available" : "Saatavilla",
+        "views" : "Näyttökertaa"
+    },
+    "languageSelect" : {
+        "finnish" : "Suomeksi",
+        "english" : "Englanniksi",
+        "swedish" : "Ruotsiksi",
+        "greekish" : "Kreikaksi"
+    },
+    "login" : {
+        "loginButton" : "Kirjaudu sisään",
+        "logOutButton" : "Kirjaudu ulos",
+        "profileButton" : "Profiili"
+    },
+    "loginForm" : {
+        "title" : "Kirjautuminen",
+        "loginForAccess" : "Kirjaudu päästäksesi sisään",
+        "loginButton" : "Kirjaudu",
+        "askForEmail" : "Anna sähköposti",
+        "askForPassword": "Anna salasana",
+        "newUserLink" : "Oletko uusi käyttäjä?",
+        "signUpLink" : "Liity nyt!",
+        "errorIncorrectEmailAddress" : "Virheellinen sähköposti, yritä uudelleen",
+        "wrongPassword" : "Tarkista salasana ja yritä uudelleen"
+    },
+    "profileMenu": {
+        "loginFirst" : "Nähdäksesi tämän sivun, sinun tulee kirjautua sisään",
+        "userDetails" : "Käyttäjätiedot",
+        "subscriptions" : "Tilaukset",
+        "changePassword" : "Vaihda salasana"
+    },
+    "navBar" : {
+        "backToHome" : "Takaisin etusivulle",
+        "contactUs" : "Ota yhteyttä",
+        "onlineTV" : "Online TV",
+        "tvShows" : "TV Sarjat",
+        "search" : "Haku"
+    },
+    "navBarCategoryDropDown" : {
+        "categories" : "Kategoriat"
+    },
+    "search" : {
+        "searchButton" : "Hae",
+        "newFirst" : "Uusimmat ensin",
+        "alphabetically" : "A-Z",
+        "showAll" : "Näytä kaikki",
+        "showOnlyMovies" : "Vain elokuvat ja jaksot",
+        "showOnlySeries" : "Vain sarjat",
+        "searchByName" : "Etsi nimellä",
+        "searchResults" : "tulosta",
+        "searchNoMatch" : "Valitettavasti emme löytäneet yhtään hakuasi vastaavaa videota. Tarkistithan hakusanan?"
+    },
+    "seasonsAndEpisodes" : {
+        "title" : "Kausi"
+    },
+    "seriesSlider" : {
+        "title" : "SARJAT"
+    },
+    "signUpBar" : {
+        "inputPlaceholderEmail" : "Sähköposti",
+        "signupButton" : "Liity",
+        "subscribe" : "Tilaa",
+        "welcomeText1" : "Liity ilmaiseksi - Satoja tunteja videoita",
+        "welcomeText2" : "",
+        "errorIncorrectEmailAddress" : "Virheellinen sähköposti, yritä uudelleen"
+    },
+    "signUpForm" : {
+        "agreeOnTerms" : "Rekisteröitymällä hyväksyt tietosuojaehtomme",
+        "title" : "Rekisteröityminen",
+        "address" : "Lähiosoite",
+        "city" : "Kaupunki",
+        "country" : "Maa",
+        "dateOfBirth" : "Syntymäaika",
+        "firstName" : "Etunimi",
+        "lastName" : "Sukunimi",
+        "phone" : "Puhelin",
+        "askForAddress" : "Anna lähiosoite",
+        "askForCity" : "Anna kaupunki",
+        "askForCountry" : "Valitse maa",
+        "askForConfirmPassword" : "Anna salasana uudelleen",
+        "askForDateOfBirth" : "Anna syntymäaika (vvvv-kk-pp)",
+        "askForFirstName" : "Anna etunimi",
+        "askForLastName" : "Anna sukunimi",
+        "askForPassword" : "Anna salasana",
+        "askForPhone" : "Anna puhelinnumero",
+        "errorPasswordNotLongEnough" : "Salasanan täytyy olla vähintään {{count}} merkkiä pitkä",
+        "errorPasswordsDontMatch" : "Salasanat eivät täsmää",
+        "inputPlaceholderEmail" : "Sähköposti...",
+        "incorrectEmailAddress" : "Virheellinen sähköpostiosoite, yritä uudelleen",
+        "submitButton" : "Seuraava"
+        
+    },
+    "similiarSlider" : {
+        "title" : "Samankaltaisia"
+    },
+    "subscriptions": {
+        "title" : "Voimassaolevat tilaukset"
+    },
+    "userDetails" : {
+        "somethingWrongTryAgain" : "Jotain meni vikaan, yritä uudelleen",
+        "profileUpdated" : "Profiili päivitetty",
+        "userDetails" : "Käyttäjätiedot",
+        "inputPlaceholderFirstName" : "Etunimi",
+        "inputPlaceholderLastName" : "Sukunimi",
+        "inputPlaceholderEmail" : "Sähköposti",
+        "inputPlaceholderPhone" : "Puhelin",
+        "inputPlaceholderAddress" : "Osoite",
+        "inputPlaceholderCity" : "Kaupunki",
+        "inputPlaceholderCountry" : "Maa",
+        "askForFirstName" : "Anna etunimi",
+        "askForLastName" : "Anna sukunimi",
+        "askforPhone" : "Anna puhelinnumero",
+        "askForAddress" : "Anna lähiosoite",
+        "askForCity" : "Anna kaupunki",
+        "askForCountry" : "Valitse maa",
+        "incorrectEmailAddress" : "Virheellinen sähköpostiosoite, yritä uudelleen",
+        "saveChanges" : "Tallenna"
+    },
+    "videoPlayer" : {
+        "showPlayer" : "Näytä video",
+        "close" : "Sulje"
+    }
+}
