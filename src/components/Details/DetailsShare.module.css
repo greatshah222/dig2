@@ -9,7 +9,7 @@
 }
 .details_share a {
   text-decoration: none;
-  color: var(--brand);
+  color: var(--brandHover);
 }
 .details_share a:hover {
   color: var(--brandHover);
@@ -22,5 +22,5 @@
   height: 50px;
   cursor: pointer;
   margin-right: 5px;
-  color: var(--brand);
+  color: var(--brandHover);
 }
