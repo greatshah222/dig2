@@ -315,7 +315,7 @@ function App() {
             <Route path={`/${settings.routes.playVideo}/:orgId/:asset`}>
               <AssetVideoPlayer backRoute={'/'} playerAutoStart={true} />
 
-              <DetailsVideo hideBanner={true} />
+              <DetailsVideo hideBanner={true} hideInfoData={true} />
             </Route>
 
             {/* ROUTE FOR PLAY SERIE*/}
