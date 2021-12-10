@@ -829,6 +829,8 @@
         "search": "search",
         "playVideo": "playVideo",
         "playSerie": "playVideoSerie",
+        "shareAsset":"embed",
+
         "signUp": "signUp",
         "home": "/",
         "packages": "/packages"

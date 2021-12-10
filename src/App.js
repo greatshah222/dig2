@@ -42,6 +42,8 @@ import EpisodesWithSerieTitles from './components/ViewAssets/Sliders/Series/Epis
 
 //import DetailsItemDescription from './components/Details/DetailsItemDescription';
 import DetailsSeasonsAndEpisodes from './components/Details/DetailsSeasonsAndEpisodes';
+import Socials from './components/EmbedPlayer/EmbedPlayer';
+
 // new slick
 
 import 'react-multi-carousel/lib/styles.css';
@@ -198,6 +200,12 @@ function App() {
     <div className='App'>
       <div className='container'>
         <Switch>
+          <Route
+            path={`/${settings.routes.shareAsset}/vod/:orgId/:asset`}
+            exact
+          >
+            <Socials routes={settings.routes} />
+          </Route>
           <Route>
             <NavBar
               links={
