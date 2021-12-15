@@ -157,7 +157,7 @@ const RenderSeasonsAndEpisodes = (props) => {
   };
 
   const renderSeasonContent = () => {
-    episodes.sort((a, b) => a.episodeNumber - b.episodeNumber);
+    // episodes.sort((a, b) => a.episodeNumber - b.episodeNumber);
     return episodes.map((item) => {
       return (
         <div
